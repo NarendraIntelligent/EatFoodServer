@@ -50,7 +50,7 @@
             android:name=".TrackingOrder"
             android:label="@string/title_activity_tracking_order" />
 
-      
+
         <service android:name=".Service.MyFirebaseMessaging">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
